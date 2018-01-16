@@ -38,5 +38,67 @@ p {
 }
 
 .card.accent .header {
-  background-color: #FCBAD3;
+  background-color: #fcbad3;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: .5rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+.primary table #title {
+  width: 60%;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5rem 1rem;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.btn.default {
+  background-color: inherit;
+  color: #000000;
+}
+
+.btn.raised.default {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn.primary {
+  background-color: inherit;
+  color: #aa96da
+}
+
+.btn.raised.primary {
+  background-color: #aa96da;
+  color: #000000;
+}
+
+.btn.accent {
+  background-color: inherit;
+  color: #fcbad3;
+}
+
+.btn.raised.accent {
+  background-color: #fcbad3;
+  color: #000000;
 }

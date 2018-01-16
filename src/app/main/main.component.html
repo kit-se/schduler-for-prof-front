@@ -1,15 +1,40 @@
-<div class="container">
-  <div class="main contents">
+<div fxLayout="row" fxLayoutAlign="space-between" class="container">
+  <div fxLayout="column" fxFlex="2 1 66%" class="main contents">
     <div class="card primary">
       <div class="header"><p>전체</p></div>
       <div class="body">
-          <p>123123</p>
+          <table>
+            <tr>
+              <th id="title">제목</th>
+              <th id="author">작성자</th>
+              <th id="deadline">마감 기한</th>
+            </tr>
+            <tr>
+              <td>멀티미디어 과제 검사</td>
+              <td>이해연</td>
+              <td>2017-01-20 12:00</td>
+            </tr>
+          </table>
       </div>
     </div>
   </div>
-  <div class="sub contents">
+  <div fxLayout="column" fxFlex="1 1 33%" class="sub contents">
     <div class="card accent">
       <div class="header"><p>기간 임박</p></div>
+      <div class="body">
+          <table>
+              <tr>
+                <th id="title">제목</th>
+                <th id="author">작성자</th>
+                <th id="deadline">마감 기한</th>
+              </tr>
+              <tr>
+                <td>멀티미디어 과제 검사</td>
+                <td>이해연</td>
+                <td>2017-01-20 12:00</td>
+              </tr>
+            </table>
+      </div>
     </div>
   </div>
 </div>
