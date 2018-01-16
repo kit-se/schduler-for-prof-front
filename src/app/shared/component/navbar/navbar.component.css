@@ -3,13 +3,6 @@
   background-color: #a8d8ea;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100%;
-}
-
 .brand {
   margin: 0;
   font-weight: bold;
