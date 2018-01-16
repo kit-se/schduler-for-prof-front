@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+theme color :
+#A8D8EA // main
+#AA96DA // dark
+#FCBAD3 // accent 1
+#FFFFD2 // accent 2
+*/
+
+.navbar {
+  height: 200px;
+  background-color: #a8d8ea;
+}
