@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 4rem);
+}
+
+.contents {
+  margin-top: 1rem;
+}
+
+.main.contents {
+  flex: 3 1 calc(75% - .5rem);
+  margin-right: 1rem;
+}
+
+.sub.contents {
+  flex: 1 1 calc(25% - .5rem);
+}
