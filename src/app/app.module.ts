@@ -5,18 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { NavbarModule } from './shared/component/navbar/navbar.module';
-
+import { MainModule } from './main/main.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NavbarModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, NavbarModule, MainModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

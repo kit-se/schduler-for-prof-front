@@ -5,8 +5,7 @@ theme color :
 #FCBAD3 // accent 1
 #FFFFD2 // accent 2
 */
-
-.navbar {
-  height: 200px;
-  background-color: #a8d8ea;
+.container {
+  height: 100%;
+  margin: 0 2rem;
 }
